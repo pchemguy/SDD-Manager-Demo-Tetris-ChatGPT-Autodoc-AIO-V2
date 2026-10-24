@@ -4,10 +4,10 @@
 
 - Mode: autodoc/onepass, explicitly requested by the user on 2026-10-24.
 - Scope: complete browser Tetris target; one documentation pass, with bounded useful implementation increments to be planned.
-- Approval basis: PROJECT remains pending human approval. ARCHITECTURE through TASKS are preapproved by autodoc selection. No implementation range is selected.
+- Approval basis: PROJECT approved by the user after publication of ff8009d6f8cf582998c94e52c3a2e132edf488a2. ARCHITECTURE through TASKS are preapproved by autodoc selection. No implementation range is selected.
 - Tracking: enabled for preparation and implementation by root AGENTS.md; milestone 1 and issues 1–9 were created and read back before target writes.
 - Publication: every owned commit must be pushed and read back.
-- Next boundary: publish and present PROJECT for approval; after approval continue through DOCS-008 and stop before DOCS-009, package integration and implementation.
+- Next boundary: continue through DOCS-008 and stop before DOCS-009, package integration and implementation.
 
 ## Scope source
 
@@ -18,8 +18,13 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 | Task | Current evidence / decision basis |
 | --- | --- |
 | DOCS-001 | All four root files retained byte for byte against original commit 936a5146f7ad8cdf13cfbdaba97975f5b7031052; no copies needed. Provenance setup below verified. Task marked complete with this record and HANDOFF. |
-| DOCS-002 | Proposal PROJECT.md blob 8e0bb772ac2d260840f026cf497b00c27f62990c; coverage/content review passed against the complete user seed. Gameplay and technology recommendations are explicitly proposed, not accepted. Human acceptance required; DOCS-002 stays unchecked. |
-| DOCS-003–008 | Not started; scoped later-document preapproval from requested autodoc mode. |
+| DOCS-002 | Human approved the published PROJECT proposal ff8009d6f8cf582998c94e52c3a2e132edf488a2 in the current conversation; approved bytes retained unchanged. docs/dev/PROJECT.md blob 8e0bb772ac2d260840f026cf497b00c27f62990c |
+| DOCS-003 | Not started; scoped autodoc preapproval. |
+| DOCS-004 | Not started; scoped autodoc preapproval. |
+| DOCS-005 | Not started; scoped autodoc preapproval. |
+| DOCS-006 | Not started; scoped autodoc preapproval. |
+| DOCS-007 | Not started; scoped autodoc preapproval. |
+| DOCS-008 | Not started; scoped autodoc preapproval. |
 | DOCS-009 | Not selected; autodoc stop precedes this task. |
 
 ## Initialization
@@ -37,4 +42,4 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 
 ## Pending transitions
 
-Initialization commit bd867dc3017d67bd48c6b117bca759d86af071e2 published and exact-ref read back; issue 1 evidence posted and closure read back as completed. PROJECT proposal publication requires confirmation, then human acceptance is pending. No dependent architecture work before acceptance.
+DOCS-002 completion publication and issue 2 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
