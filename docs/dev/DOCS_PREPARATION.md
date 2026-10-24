@@ -20,7 +20,7 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 | DOCS-001 | All four root files retained byte for byte against original commit 936a5146f7ad8cdf13cfbdaba97975f5b7031052; no copies needed. Provenance setup below verified. Task marked complete with this record and HANDOFF. |
 | DOCS-002 | Human approved the published PROJECT proposal ff8009d6f8cf582998c94e52c3a2e132edf488a2 in the current conversation; approved bytes retained unchanged. docs/dev/PROJECT.md blob 8e0bb772ac2d260840f026cf497b00c27f62990c |
 | DOCS-003 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/ARCHITECTURE.md blob 463d6c71f4ebc51d53d648d8e8896a6514784c3c |
-| DOCS-004 | Not started; scoped autodoc preapproval. |
+| DOCS-004 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/DECOMPOSITION.md blob 316a8e6a86490dcdf010b0a4c99889a982c33969 |
 | DOCS-005 | Not started; scoped autodoc preapproval. |
 | DOCS-006 | Not started; scoped autodoc preapproval. |
 | DOCS-007 | Not started; scoped autodoc preapproval. |
@@ -42,4 +42,4 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 
 ## Pending transitions
 
-DOCS-003 completion publication and issue 3 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
+DOCS-004 completion publication and issue 4 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
