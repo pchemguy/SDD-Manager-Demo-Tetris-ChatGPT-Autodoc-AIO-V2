@@ -22,7 +22,7 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 | DOCS-003 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/ARCHITECTURE.md blob 463d6c71f4ebc51d53d648d8e8896a6514784c3c |
 | DOCS-004 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/DECOMPOSITION.md blob 316a8e6a86490dcdf010b0a4c99889a982c33969 |
 | DOCS-005 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/SPEC.md blob f9f516125ada5e9a297fff3caee52905817ee762; docs/dev/spec/GAMEPLAY.md blob 2177839be71521162e366ba7cca96be593dccc4e; docs/dev/spec/CONFIGURATION.md blob 799ec68a0867b823515a5596919b9bce3684ef85; docs/dev/SPEC-REVIEW-REPORT.md blob 8f0e2cd6a36d07fc06f184a6dc23f78695b719bf |
-| DOCS-006 | Not started; scoped autodoc preapproval. |
+| DOCS-006 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/PLAN.md blob 5b7e6477b6841ef957db7e9dfc9fbc15c7993790; docs/dev/PLAN-REVIEW-REPORT.md blob ffa5201d3378c83d700667507f7e0a53f3914fe2 |
 | DOCS-007 | Not started; scoped autodoc preapproval. |
 | DOCS-008 | Not started; scoped autodoc preapproval. |
 | DOCS-009 | Not selected; autodoc stop precedes this task. |
@@ -42,4 +42,4 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 
 ## Pending transitions
 
-DOCS-005 completion publication and issue 5 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
+DOCS-006 completion publication and issue 6 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
