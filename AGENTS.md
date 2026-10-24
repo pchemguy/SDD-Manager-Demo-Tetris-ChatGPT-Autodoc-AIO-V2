@@ -43,3 +43,7 @@ Follow `sdd-manage`'s preparation and phase-activation workflows for required tr
 ## Project guidance
 
 Maintain project-specific navigation and validated setup/check commands here as they become established. Do not invent commands, paths, requirements or completion claims.
+
+## Canonical project documents
+
+Read the [project brief](docs/dev/PROJECT.md), [architecture](docs/dev/ARCHITECTURE.md), [component decomposition](docs/dev/DECOMPOSITION.md), [behavior specification](docs/dev/SPEC.md), [delivery plan](docs/dev/PLAN.md) and [physical layout](docs/dev/layout.md) for the intended game. Product source and tests described in layout are planned; no setup/check command has yet been validated. Recover preparation state from [DOCS_PREPARATION](docs/dev/DOCS_PREPARATION.md) and [HANDOFF](docs/dev/HANDOFF.md). Read nested AGENTS for selected paths; historical AI logs are not current authority.
