@@ -18,7 +18,7 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 | Task | Current evidence / decision basis |
 | --- | --- |
 | DOCS-001 | All four root files retained byte for byte against original commit 936a5146f7ad8cdf13cfbdaba97975f5b7031052; no copies needed. Provenance setup below verified. Task marked complete with this record and HANDOFF. |
-| DOCS-002 | Not yet authored in the repository; human acceptance required. |
+| DOCS-002 | Proposal PROJECT.md blob 8e0bb772ac2d260840f026cf497b00c27f62990c; coverage/content review passed against the complete user seed. Gameplay and technology recommendations are explicitly proposed, not accepted. Human acceptance required; DOCS-002 stays unchecked. |
 | DOCS-003–008 | Not started; scoped later-document preapproval from requested autodoc mode. |
 | DOCS-009 | Not selected; autodoc stop precedes this task. |
 
@@ -37,4 +37,4 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 
 ## Pending transitions
 
-Initialization commit publication and DOCS-001 issue 1 evidence/closure require confirmation after this checkpoint. Resolve actual Git and hosted state before dependent document work.
+Initialization commit bd867dc3017d67bd48c6b117bca759d86af071e2 published and exact-ref read back; issue 1 evidence posted and closure read back as completed. PROJECT proposal publication requires confirmation, then human acceptance is pending. No dependent architecture work before acceptance.
