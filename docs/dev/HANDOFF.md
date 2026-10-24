@@ -1,22 +1,32 @@
 # Project handoff
 
-Checkpoint: main preparation initialization; repository initialized, documentation incomplete.
+Checkpoint: autodoc/onepass DOCS-008 boundary; document stages through TASKS completed under accepted brief and scoped preapproval. This snapshot's containing commit identifies the checkpoint; recover its publication/closure and later work from Git and hosted state.
 
 ## Workflow and sources
 
-- Coordinator: sdd-manage; next document owner: sdd-design.
-- Governing sources: [root instructions](../../AGENTS.md), [plugin entry](../../.agents/plugins/sdd-manager/PLUGIN.md), [preparation control](DOCS_PREPARATION.md), [documentation tasks](DOCS_TASKS.md).
-- Objective: prepare complete Tetris scope in autodoc/onepass mode; no product implementation yet.
-- Pending human checkpoint: PROJECT approval. Later document stages through TASKS are preapproved; stop after DOCS-008 before package QC and implementation.
-- Tracking: root policy enabled; documentation milestone 1, issues 1–9 verified before repository writes. Standard reporting.
+- Workflow/stage/owner: main preparation, autodoc stop; sdd-manage coordinates any explicit advance.
+- Governing owners: [PROJECT](PROJECT.md), [ARCHITECTURE](ARCHITECTURE.md), [DECOMPOSITION](DECOMPOSITION.md), [SPEC](SPEC.md) and children, [PLAN](PLAN.md), [layout](layout.md), [TASKS](TASKS.md).
+- Preparation: [task checkoffs](DOCS_TASKS.md) and [mode/decision/evidence control](DOCS_PREPARATION.md).
+- Scoped QC: [SPEC review](SPEC-REVIEW-REPORT.md), [combined PLAN/layout review](PLAN-REVIEW-REPORT.md), [TASKS review](TASKS-REVIEW-REPORT.md). No whole-package QC is claimed.
+- Plugin source: repository-pinned .agents/plugins/sdd-manager; browser and shell policies remain governing. No product tooling/browser capability is asserted.
+
+## Scope and human decisions
+
+- Objective: complete intended Tetris scope in one document pass, followed by bounded implementation phases when separately authorized.
+- Human approved PROJECT proposal ff8009d6f8cf582998c94e52c3a2e132edf488a2 with “Approve”; later ARCHITECTURE–TASKS checkpoints were preapproved by requested autodoc mode.
+- Exact stop: after DOCS-008 and its verified publication/closure, before DOCS-009, documentation integration, implementation activation or execution.
+- Tracking: root AGENTS enables preparation and implementation tracking. Documentation milestone 1 / issues 1–9 were verified before writes. Every owned commit is pushed/read back. Standard reporting.
+- Outcome: five planned releases (0.1.0–0.5.0), 43 unchecked implementation tasks; no playable implementation, browser acceptance or GitHub release yet.
 
 ## Branches and return
 
 - Working branch: design-docs/main.
-- Creation parent and eventual integration target: actual default branch main.
-- Branch-off commit: eff8ebae8eb8ee6f171287fa10f066d20828efcc.
-- Provenance branch: design-docs/ai-logs; seed merged and published separately. No suspended parent workflow.
+- Creation parent / eventual integration target: actual default main.
+- Branch-off: eff8ebae8eb8ee6f171287fa10f066d20828efcc.
+- Provenance branch design-docs/ai-logs retained; its seed is already explicitly integrated and published on main. No suspended parent workflow.
 
-## Pending work and next action
+## Pending effects and next action
 
-Verify initialization publication and issue 1 closure, then author/publish PROJECT and present its material gameplay proposals. Recover subsequent work from DOCS_PREPARATION and Git; this snapshot is not necessarily the tip. No implementation or release is complete.
+Confirm this DOCS-008 completion commit's publication and issue 8 closure before treating the stop as settled. Earlier DOCS-001–007 publications/closures are verified. Issue 9 and milestone 1 remain open; DOCS-009 remains unchecked. The documentation branch is intentionally unmerged at this autodoc boundary. No required setup failure is being waived.
+
+After an explicit advance, select DOCS-009 package QC using the owning procedure, repair/recheck any real findings, publish its result, close/read back issue 9, explicitly merge/verify/publish documentation into main, then close/read back milestone 1. Implementation still needs a separately authorized range, eligible phase projection and published documentation baseline. Do not infer implementation from approval or file presence.

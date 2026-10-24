@@ -7,11 +7,11 @@
 - Approval basis: PROJECT approved by the user after publication of ff8009d6f8cf582998c94e52c3a2e132edf488a2. ARCHITECTURE through TASKS are preapproved by autodoc selection. No implementation range is selected.
 - Tracking: enabled for preparation and implementation by root AGENTS.md; milestone 1 and issues 1–9 were created and read back before target writes.
 - Publication: every owned commit must be pushed and read back.
-- Next boundary: continue through DOCS-008 and stop before DOCS-009, package integration and implementation.
+- Next boundary: complete DOCS-008 publication/closure, then stop before DOCS-009, package integration and implementation. Explicit advance is required to select package QC; it does not select implementation.
 
 ## Scope source
 
-The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-bag, wall kicks, hard drop, configurable locking, conditional ghost, earned penetrator bonuses, six configuration controls and per-setting cookie/URL persistence. PROJECT will retain the reviewable product scope and proposed interactions.
+The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-bag, wall kicks, hard drop, configurable locking, conditional ghost, earned penetrator bonuses, six configuration controls and per-setting cookie/URL persistence. The approved PROJECT retains the complete product scope and gameplay/technology choices.
 
 ## Decisions and document evidence
 
@@ -24,7 +24,7 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 | DOCS-005 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/SPEC.md blob f9f516125ada5e9a297fff3caee52905817ee762; docs/dev/spec/GAMEPLAY.md blob 2177839be71521162e366ba7cca96be593dccc4e; docs/dev/spec/CONFIGURATION.md blob 799ec68a0867b823515a5596919b9bce3684ef85; docs/dev/SPEC-REVIEW-REPORT.md blob 8f0e2cd6a36d07fc06f184a6dc23f78695b719bf |
 | DOCS-006 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/PLAN.md blob 5b7e6477b6841ef957db7e9dfc9fbc15c7993790; docs/dev/PLAN-REVIEW-REPORT.md blob ffa5201d3378c83d700667507f7e0a53f3914fe2 |
 | DOCS-007 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/layout.md blob aedff48cef27f9e229344c65057e57bdc123292b; docs/dev/PLAN-REVIEW-REPORT.md blob c06bb8a002c0d1f973f4524a2e0ed7d54685d4ca; AGENTS.md blob 41e119502cc3ebd5b723c47b686f9d3e2559fb62 |
-| DOCS-008 | Not started; scoped autodoc preapproval. |
+| DOCS-008 | Scoped preapproval from user-selected autodoc mode; owner review passed. docs/dev/TASKS.md blob 7dd767bc6caa5b4cb4ed3ae8086d1f7210d6ff7a; docs/dev/TASKS-REVIEW-REPORT.md blob 86c27af6c3ca869262680593f542fcae8699b3ce; docs/dev/HANDOFF.md blob 5e2bebfa6dda3c95f5df9b1dabc74a62d4894a1e; AGENTS.md blob 923e18980600c168d98eec042133c14d2e45f5fd |
 | DOCS-009 | Not selected; autodoc stop precedes this task. |
 
 ## Initialization
@@ -42,4 +42,4 @@ The user's request supplies the complete target: classic Tetris, Hold, ghost, 7-
 
 ## Pending transitions
 
-DOCS-007 completion publication and issue 7 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
+DOCS-008 completion publication and issue 8 closure require readback after this commit. All prior documentation tasks have verified publication and issue closure. Reconcile actual effects before dependent work. Stop after DOCS-008; DOCS-009 and milestone 1 remain open.
